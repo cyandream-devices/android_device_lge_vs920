@@ -3,19 +3,19 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/config/apns-conf.xml:system/etc/apns-conf.xml
 
 ## Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/cdma.mk)
+$(call inherit-product, vendor/cyandream/config/cdma.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/cyandream/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/vs920/vs920.mk)
 
-PRODUCT_NAME := cm_vs920
+PRODUCT_NAME := cd_vs920
 
 # Release name and versioning
 PRODUCT_RELEASE_NAME := Spectrum

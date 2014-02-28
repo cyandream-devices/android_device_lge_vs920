@@ -1,0 +1,17 @@
+[
+ {
+   "branch": "cm-11.0",
+    "repository": "CyanogenMod/android_device_lge_iprj-common",
+   "target_path": "device/lge/iprj-common"
+ },
+ {
+   "branch": "cm-11.0",
+    "repository": "lge-kernel-iproj",
+   "target_path": "kernel/lge/iproj"
+ },
+ { 
+   "branch": "cm-11.0", 
+   "repository": "TheMuppets/proprietary_vendor_lge", 
+   "target_path": "vendor/lge" 
+ } 
+]
